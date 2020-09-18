@@ -516,6 +516,7 @@
         </section>
         <!-- section close -->
 
+
         <!-- section begin -->
         <section id="section-iterateTitle1">
             <div class="container dreyContainer">
@@ -648,6 +649,62 @@
         </section>
         <!-- section close -->
 
+         <!-- section begin -->
+        <section id="section-algorithm" class="section-algorithm">
+            <div class="container dreyContainer">
+                <div class="dreyWrapper">
+                    <div class="text-center dreyTitle">Implementation</div>
+                    <div class="text-center dreyHeading">A Deep Learning Model for Better Online Note-taking</div>
+                    <div class="text-center dreyBody">
+                        Based on the user validated design process,
+                        many users think the auto-filling feature in the note-taking process is very useful.
+                        Hence, we constructed a deep learning model to build a simple middle-school mathe knowledge graph,
+                        assisting students to take notes and review related concepts easily.
+                    </div>
+                    <video width="50%" autoplay muted loop class = "algorithm-video">
+                        <source src="Bolo/Bolo%20HTML/images/external_knowledge_resources_demo.mp4" type="video/mp4">
+                    </video>
+
+                    <div class="prototypeFeature">
+                        <div class="prototypeWrapper">
+                            <div class="dreyBold">Named-entity Extraction</div>
+                            <div class="grayrect"></div><div class="dreyBody">The most important procedure of constructing
+                            a knowledge graph is knowledge recognition.
+                            Based on Squirrel AI millions lines of  explanation text for math education,
+                            we are able to implement a RNN deep learning model that successfully extracted
+                            2520 middle-school math core knowledge concepts. </div>
+                        </div>
+                    </div>
+                    <img src="Bolo/Bolo HTML/images/ner.png" alt="named entity recognition" class= "fullWidth">
+
+                        <div class="prototypeFeature">
+                            <div class="prototypeWrapper">
+                                <div class="dreyBold">Mathematic Knowledge Graph</div>
+                                <div class="grayrect"></div><div class="dreyBody">we crawled the definition and related
+                            entities of the etracted named entities from China biggest open knowledge
+                            platform to construct our mathematic knowledge graph.
+                            The knowledge graph enables definition of named entities and
+                            hyper-links to related entities stored in Baidu Baike.
+                            With the help of Google Translator API,
+                            we are able to construct the knowledge graph in both Chinese and English.</div>
+                            </div>
+                        </div>
+                    <img src="Bolo/Bolo HTML/images/kg.png" alt="named entity recognition" class= "fullWidth">
+                    <div class="prototypeFeature">
+                        <div class="prototypeWrapper">
+                            <div class="dreyBold">Similar Problem Recommendation</div>
+                            <div class="grayrect"></div><div class="dreyBody">In the future algorithm inplementation,
+                            after gathering student importance-level evaluation data towards each problem,
+                            we can establish a matrix-factorization based recommender system
+                            for similar problem set practice. </div>
+                            </div>
+                        </div>
+                    <img src="Bolo/Bolo HTML/images/mf.png" alt="named entity recognition" class= "fullWidth">
+                    </div>
+                </div>
+        </section>
+        <!-- section close -->
+
         <!-- section begin -->
         <section id="section-measure" class="section-locate">
             <div class="container dreyContainer">
@@ -721,6 +778,9 @@
         </div>
         <div onclick="scrollToView('section-prototype')" class="navlink">
             <div class="dot"></div>Prototyping
+        </div>
+        <div onclick="scrollToView('section-algorithm')" class="navlink">
+            <div class="dot"></div>Implementation
         </div>
         <div onclick="scrollToView('section-measure')" class="navlink">
             <div class="dot"></div>Measuring Success

@@ -10061,6 +10061,7 @@ img {
     transition: .2s;
 }
 
+
 .featurepic::after {
     content: "";
     display: block;
@@ -10070,6 +10071,21 @@ img {
 
 .featurepic:hover {
     background: url("../images/14.2.png");
+}
+
+.namedentrec {
+    margin: 50px 0 50px 0;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    background: url("../images/ner.png");
+    transition: .2s;
+}
+
+.algorithm-video{
+    display: inline-block;
+    vertical-align: baseline;
+    min-width: 100%;
+    min-height: 17%;
 }
 
 .quote {
